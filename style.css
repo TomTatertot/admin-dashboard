@@ -42,10 +42,17 @@ body {
     gap: 20px;
 }
 
-.nav-bar .profile-picture {
-    background-color: rgb(255, 251, 0);
-    border-radius: 25px;
+.small-profile-picture{
+    border-radius: 50%; /* 50% ensures that a square element is rounded into a circle regardless of its size */
     width: 3rem;
+}
+
+.large-profile-picture {
+    border-radius: 50%;
+    width: 5rem;
+}
+.avatar-one{
+    background-color: rgb(255, 251, 0);
 }
 
 .nav-bar .user-name {
@@ -63,8 +70,8 @@ body {
     background-color: rgb(34, 113, 187);
     color: white;
     font-weight:500;
-    border-width: 0px;
-    border-radius: 20px;
+    border: none;
+    border-radius: 9999px; /* 9999px is a CSS trick that ensures rectangle elements are rounded into pills regardless of size */
 
 }
 
