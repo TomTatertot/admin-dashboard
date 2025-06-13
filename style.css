@@ -1,0 +1,62 @@
+/* .header {
+    box-shadow: 0px 3px 5px gray;
+    padding: 1em 2em;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-bar .left {
+    display: flex;
+    flex: 1;
+}
+
+.nav-bar .right {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+}
+
+.profile-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.greeting {
+    display: flex;
+}
+
+.nav-bar > label {
+    display: flex;
+    align-content: center;
+}
+
+.header img {
+    display: inline;
+    width: 2em;
+}
+
+#search {
+    background-color: rgba(63, 95, 105, 0.226);
+    border-radius: 10px;
+    border: 0px;
+    width: 80%;
+    
+} */
+
+img {
+    width: 2em;
+}
+
+ul {
+    list-style: none;     /* removes bullets/numbers */
+    margin: 0;            /* resets outer margin */
+    padding: 0;           /* resets left indent */
+}
+
+a {
+    display: flex;
+}
