@@ -30,15 +30,22 @@ body {
 .nav-bar{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 12px;
     margin-bottom: 2rem;
+}
+
+.nav-bar .user,
+.nav-bar .search {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .nav-bar .profile-picture {
     background-color: rgb(255, 251, 0);
     border-radius: 25px;
     width: 3rem;
-    margin: 0 1.5rem;
 }
 
 .nav-bar .user-name {
@@ -70,17 +77,11 @@ body {
     display: flex;
 }
 
-.nav-bar label {
-    display: flex;
-    align-content: center;
-}
-
-#search {
+#search-bar {
     background-color: rgba(63, 95, 105, 0.226);
     border-radius: 10px;
-    border: 0px;
-    width: 50rem;
-    margin-right: 11rem;
+    border: none;
+    width: 40rem;
 }
 
 img {
