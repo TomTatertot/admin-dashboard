@@ -170,9 +170,8 @@ svg{
 }
 
 .current-event-container {
-    /* display: flex;
-    flex-direction: column; */
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
     
     align-items: start;
@@ -195,6 +194,10 @@ svg{
     border-bottom: 1px solid #ccc;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
+}
+
+.trending-container {
+    width: 100%;
 }
 
 .trending-list{
