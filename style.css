@@ -7,6 +7,20 @@ body {
     background-color: var(--web-background-color);
 }
     
+img {
+    width: 1.5rem;
+}
+
+ul {
+    list-style: none;     /* removes bullets/numbers */
+    margin: 0;            /* resets outer margin */
+    padding: 0;           /* resets left indent */
+}
+
+svg{
+    width: 2rem;
+    fill: white;
+}
 
 .container {
     display: grid;
@@ -32,7 +46,7 @@ body {
     background-color: var(--web-background-color);
     border-radius: 10px;
     border: none;
-    width: 40rem;
+    width: 50%;
 }
 
 .nav-bar .left,
@@ -40,6 +54,9 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+.nav-bar .left {
+    flex-grow: 1;
 }
 
 .right .user-name{
@@ -130,7 +147,7 @@ body {
     background-color: white;
     border-radius: 16px;
     padding: 2rem;
-    border-left: 10px inset rgb(255, 210, 10);
+    border-left: 10px solid orange;
     box-shadow: 5px 5px 5px gray;
 
 }
@@ -181,10 +198,11 @@ body {
 }
 
 .trending-container {
-    background-color: white;
     border-radius: 16px;
     padding: 2rem;
     margin-top: 1rem;
+
+    background-color: white;
     box-shadow: 5px 5px 5px gray;
 }
 
@@ -212,19 +230,4 @@ body {
 
 .avatar-one{
     background-color: rgb(255, 251, 0);
-}
-
-img {
-    width: 1.5rem;
-}
-
-ul {
-    list-style: none;     /* removes bullets/numbers */
-    margin: 0;            /* resets outer margin */
-    padding: 0;           /* resets left indent */
-}
-
-svg{
-    width: 2rem;
-    fill: white;
 }
